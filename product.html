@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Arqami Fragrance</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+>
+
+</head>
+
+<body>
+    
+     <!-- Navbar -->
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                <img src="images/logo.png" alt="Arqami Perfume Logo">
+                <h2>Arqami Fragrance</h2>
+            </div>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html" >Home</a>
+                </li>
+
+                <li>
+                    <a href="product.html"class="active">Products</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+            <button class="menu-btn" aria-label="Toggle Navigation">
+    <i class="fa-solid fa-bars"></i>
+</button>
+
+        </nav>
+
+    </header>
+
+    <!--Page Banner-->
+
+    <section class="page-banner">
+
+        <h1>Our Fragrance Collection</h1>
+
+        <p>Discover premium fragrances crafted for every personality.</p>
+
+    </section>
+
+
+    <!--Products-->
+
+
+    <section class="products">
+
+    <h2 class="section-title">
+        All Products
+    </h2>
+
+    <!--Search Bar-->
+
+    <div class="product-search">
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search perfume..."
+    >
+        
+    </div>
+
+    <!--Filter Button-->
+
+        <div class="product-filters">
+
+            <button class="filter-btn active" data-filter="all">
+             All
+            </button>
+
+            <button class="filter-btn" data-filter="best-seller">
+             Top
+            </button>
+
+            <button class="filter-btn" data-filter="new">
+            New
+            </button>
+
+            <button class="filter-btn" data-filter="sale">
+             Sale
+            </button>
+
+    </div>
+    
+
+    <!--Products-->
+
+    <div class="product-container">
+
+        <!--Product 1-->
+
+        <div class="product-card">
+
+            <span class="badge best-seller">
+
+             🔥 Best Seller
+
+            </span>
+
+         <img src="images/24 o'clock.jpeg" alt="24 O'Clock">
+
+         <h3>24 O'Clock</h3>
+
+        <p class="description">
+        Long-lasting luxury fragrance for everyday use.
+        </p>
+
+        <p class="stock">
+        In Stock
+        </p>
+
+       <div class="sizes">
+
+    <p><strong>Select Size</strong></p>
+
+    <div class="size-buttons">
+
+        <button class="size-btn active" data-price="1200">
+            20ml
+        </button>
+
+        <button class="size-btn" data-price="1800">
+            30ml
+        </button>
+
+        <button class="size-btn" data-price="3000">
+            50ml
+        </button>
+
+    </div>
+
+</div>
+
+<p class="price">
+
+    Price: Rs.<span class="price-value">1200</span>
+
+</p>
+
+        <a href="#" class="product-btn">
+        Buy Now
+        </a>
+
+    </div>
+
+        <!--Product 2-->
+
+        <div class="product-card">
+
+            <span class="badge new">
+             🆕 New
+            </span>
+
+            <img src="images/kings fort.jpeg" alt="King's Fort">
+
+            <h3>King's Fort</h3>
+
+            <p class="description">Explore the fragrance of royalty
+            for every occasion.</p>
+
+            <p class="stock">
+             In Stock
+            </p>
+
+            <div class="sizes">
+
+    <p><strong>Select Size</strong></p>
+
+    <div class="size-buttons">
+
+        <button class="size-btn active" data-price="1200">
+            20ml
+        </button>
+
+        <button class="size-btn" data-price="1800">
+            30ml
+        </button>
+
+        <button class="size-btn" data-price="3000">
+            50ml
+        </button>
+
+    </div>
+
+</div>
+
+<p class="price">
+
+    Price: Rs.<span class="price-value">1200</span>
+
+</p>
+
+            <a href="#" class="product-btn">Buy Now</a>
+
+        </div>
+
+        <!--Product 3-->
+
+        <div class="product-card">
+
+            <span class="badge sale">
+            🏷️ Sale
+            </span>
+
+            <img src="images/golden river.jpeg" alt="Golden River">
+
+            <h3>Golden River</h3>
+
+            <p class="description">Enjoy the premium golden
+fragrance every day.</p>
+
+            <p class="stock">
+             In Stock
+            </p>
+
+            <div class="sizes">
+
+    <p><strong>Select Size</strong></p>
+
+    <div class="size-buttons">
+
+        <button class="size-btn active" data-price="1200">
+            20ml
+        </button>
+
+        <button class="size-btn" data-price="1800">
+            30ml
+        </button>
+
+        <button class="size-btn" data-price="3000">
+            50ml
+        </button>
+
+    </div>
+
+</div>
+
+<p class="price">
+
+    Price: Rs.<span class="price-value">1200</span>
+
+</p>
+
+            <a href="#" class="product-btn">Buy Now</a>
+
+        </div>
+
+        <!--Product 4-->
+
+        <div class="product-card">
+
+            <img src="images/talab.jpeg" alt="Talab">
+
+            <h3>Talab</h3>
+
+            <p class="description">Experience a rich and captivating fragrance made for every occasion.</p>
+
+            <p class="stock">
+             In Stock
+            </p>
+
+            <div class="sizes">
+
+    <p><strong>Select Size</strong></p>
+
+    <div class="size-buttons">
+
+        <button class="size-btn active" data-price="1200">
+            20ml
+        </button>
+
+        <button class="size-btn" data-price="1800">
+            30ml
+        </button>
+
+        <button class="size-btn" data-price="3000">
+            50ml
+        </button>
+
+    </div>
+
+</div>
+
+<p class="price">
+
+    Price: Rs.<span class="price-value">1200</span>
+
+</p>
+
+            <a href="#" class="product-btn">Buy Now</a>
+
+        </div>
+
+        <!--Product 5-->
+
+        <div class="product-card">
+
+            <img src="images/david beckham.jpeg" alt="David Beckham">
+
+            <h3>David Beckham</h3>
+
+            <p class="description">Enjoy a sophisticated fragrance with a fresh and confident character.</p>
+
+            <p class="stock">
+             In Stock
+            </p>
+
+            <div class="sizes">
+
+    <p><strong>Select Size</strong></p>
+
+    <div class="size-buttons">
+
+        <button class="size-btn active" data-price="1200">
+            20ml
+        </button>
+
+        <button class="size-btn" data-price="1800">
+            30ml
+        </button>
+
+        <button class="size-btn" data-price="3000">
+            50ml
+        </button>
+
+    </div>
+
+</div>
+
+<p class="price">
+
+    Price: Rs.<span class="price-value">1200</span>
+
+</p>
+
+            <a href="#" class="product-btn">Buy Now</a>
+
+        </div>
+
+        <!--Product 6-->
+
+        <div class="product-card">
+
+            <img src="images/lebok burak.jpeg" alt="Lebak Burak">
+
+            <h3>Lebak Burak</h3>
+
+            <p class="description">Discover a bold and elegant fragrance with a lasting impression.</p>
+
+            <p class="stock">
+             In Stock
+            </p>
+
+            <div class="sizes">
+
+    <p><strong>Select Size</strong></p>
+
+    <div class="size-buttons">
+
+        <button class="size-btn active" data-price="1300">
+            20ml
+        </button>
+
+        <button class="size-btn" data-price="1950">
+            30ml
+        </button>
+
+        <button class="size-btn" data-price="3250">
+            50ml
+        </button>
+
+    </div>
+
+</div>
+
+<p class="price">
+
+    Price: Rs.<span class="price-value">1300</span>
+
+</p>
+
+            <a href="#" class="product-btn">Buy Now</a>
+
+        </div>
+
+        <!--Product 7-->
+
+        <div class="product-card">
+
+            <img src="images/nahar ul tateer.jpeg" alt="Nahar ul Tateer">
+
+            <h3>Nahar ul Tateer</h3>
+
+            <p class="description">Enjoy a fresh and refreshing blue fragrance for a confident day.</p>
+
+            <p class="stock">
+             In Stock
+            </p>
+
+           <div class="sizes">
+
+    <p><strong>Select Size</strong></p>
+
+    <div class="size-buttons">
+
+        <button class="size-btn active" data-price="1200">
+            20ml
+        </button>
+
+        <button class="size-btn" data-price="1800">
+            30ml
+        </button>
+
+        <button class="size-btn" data-price="3000">
+            50ml
+        </button>
+
+    </div>
+
+</div>
+
+<p class="price">
+
+    Price: Rs.<span class="price-value">1200</span>
+
+</p>
+
+            <a href="#" class="product-btn">Buy Now</a>
+
+        </div>
+
+        <!--Product 8-->
+
+        <div class="product-card">
+
+            <img src="images/velviora.jpeg" alt="Velviora">
+
+            <h3>Velviora</h3>
+
+            <p class="description">Experience a smooth and luxurious fragrance with an elegant touch.</p>
+
+            <p class="stock">
+             In Stock
+            </p>
+
+            <div class="sizes">
+
+    <p><strong>Select Size</strong></p>
+
+    <div class="size-buttons">
+
+        <button class="size-btn active" data-price="1200">
+            20ml
+        </button>
+
+        <button class="size-btn" data-price="1800">
+            30ml
+        </button>
+
+        <button class="size-btn" data-price="3000">
+            50ml
+        </button>
+
+    </div>
+
+</div>
+
+<p class="price">
+
+    Price: Rs.<span class="price-value">1200</span>
+
+</p>
+
+            <a href="#" class="product-btn">Buy Now</a>
+
+        </div>
+
+        <!--Product 9-->
+
+        <div class="product-card">
+
+            <img src="images/the success.jpeg" alt="The Success">
+
+            <h3>The Success</h3>
+
+            <p class="description">Feel the confidence of a powerful fragrance made for success.</p>
+
+            <p class="stock">
+             In Stock
+            </p>
+<div class="sizes">
+
+    <p><strong>Select Size</strong></p>
+
+    <div class="size-buttons">
+
+        <button class="size-btn active" data-price="1400">
+            20ml
+        </button>
+
+        <button class="size-btn" data-price="2100">
+            30ml
+        </button>
+
+        <button class="size-btn" data-price="3500">
+            50ml
+        </button>
+
+    </div>
+
+</div>
+
+<p class="price">
+
+    Price: Rs.<span class="price-value">1400</span>
+
+</p>
+
+            <a href="#" class="product-btn">Buy Now</a>
+
+        </div>
+
+        <!--Product 10-->
+
+        <div class="product-card">
+
+            <img src="images/green ice.jpeg" alt="Green Ice">
+
+            <h3>Green Ice</h3>
+
+            <p class="description">Enjoy a cool and refreshing fragrance with a crisp, fresh touch.</p>
+
+            <p class="stock">
+             In Stock
+            </p>
+
+            <div class="sizes">
+
+    <p><strong>Select Size</strong></p>
+
+    <div class="size-buttons">
+
+        <button class="size-btn active" data-price="1200">
+            20ml
+        </button>
+
+        <button class="size-btn" data-price="1800">
+            30ml
+        </button>
+
+        <button class="size-btn" data-price="3000">
+            50ml
+        </button>
+
+    </div>
+
+</div>
+
+<p class="price">
+
+    Price: Rs.<span class="price-value">1200</span>
+
+</p>
+
+            <a href="#" class="product-btn">Buy Now</a>
+
+        </div>
+
+        
+        <!--Product 11-->
+
+        <div class="product-card">
+
+            <img src="images/white oudh.jpeg" alt="White Oudh">
+
+            <h3>White Oudh</h3>
+
+            <p class="description">Discover the rich and timeless aroma of oud with a modern touch.</p>
+
+            <p class="stock">
+             In Stock
+            </p>
+
+            <div class="sizes">
+
+    <p><strong>Select Size</strong></p>
+
+    <div class="size-buttons">
+
+        <button class="size-btn active" data-price="1400">
+            20ml
+        </button>
+
+        <button class="size-btn" data-price="2100">
+            30ml
+        </button>
+
+        <button class="size-btn" data-price="3500">
+            50ml
+        </button>
+
+    </div>
+
+</div>
+
+<p class="price">
+
+    Price: Rs.<span class="price-value">1200</span>
+
+</p>
+
+            <a href="#" class="product-btn">Buy Now</a>
+
+        </div>
+
+    </div>
+
+    </section>
+
+    <!-- Order Form -->
+
+<div class="order-overlay" id="orderOverlay">
+
+    <div class="order-form">
+
+        <button class="close-order" id="closeOrder">
+            &times;
+        </button>
+
+        <h2>Place Your Order</h2>
+
+        <p class="selected-product">
+            Product:
+            <strong id="selectedProduct">---</strong>
+        </p>
+
+        <p class="selected-size">
+            Size:
+            <strong id="selectedSize">---</strong>
+        </p>
+
+        <p class="selected-price">
+            Price:
+            Rs.<strong id="selectedPrice">---</strong>
+        </p>
+
+
+        <form id="orderForm">
+
+            <input
+                type="text"
+                id="customerName"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="tel"
+                id="customerPhone"
+                placeholder="Phone Number"
+                required
+            >
+
+            <input
+                type="text"
+                id="customerAddress"
+                placeholder="Delivery Address"
+                required
+            >
+
+            <input
+                type="number"
+                id="quantity"
+                placeholder="Quantity"
+                min="1"
+                value="1"
+                required
+            >
+
+            <p class="order-total">
+                Total: Rs. <span id="orderTotal">0</span>
+            </p>
+
+            <button type="submit" class="place-order-btn">
+                Place Order
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+<!-- Footer -->
+
+
+  <footer class="footer">
+
+
+        <div class="footer-container">
+
+
+
+            <div class="footer-box brand">
+
+
+                <h2>
+                    Arqami Fragrance
+                </h2>
+
+
+                <p>
+                    Luxury fragrances for everyone.
+                </p>
+
+
+            </div>
+
+
+
+
+
+            <div class="footer-box">
+
+
+                <h3>
+                    Quick Links
+                </h3>
+
+
+                <ul>
+
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+
+                    <li>
+                        <a href="product.html">Products</a>
+                    </li>
+
+
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+
+
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+
+
+                </ul>
+
+
+            </div>
+
+
+
+
+
+            <div class="footer-box">
+
+
+                <h3>
+                    Contact
+                </h3>
+
+
+               <p>
+                    📞 +92 313 2285083
+                </p>
+
+
+                <p>
+                    ✉ arqamifragrance746@gmail.com
+                </p>
+
+
+
+                <p>
+                    📍 Karachi, Pakistan
+                </p>
+
+
+            </div>
+
+
+           <div class="footer-box social-box">
+
+            <h3>Follow Us</h3>
+
+        <div class="social-icons">
+
+        <a href="https://www.facebook.com/share/19AGfkTApr/" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+
+        <a href="https://www.instagram.com/arqamifragrance?igsi=b2hlZm5qbWZua25n" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://wa.me/c/923132285083" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+
+    </div>
+
+</div>
+
+
+
+        </div>
+
+
+
+
+        <hr>
+
+
+        <p class="copyright">
+
+            © 2026 Arqami Perfume. All Rights Reserved.
+
+        </p>
+
+
+    </footer>
+    
+<script src="script.js"></script>
+
+</body>
+
+</html>
